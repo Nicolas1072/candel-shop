@@ -4,64 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="shortcut icon" href="./images/candle_icon.png">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Candel Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../images/candle_icon.png">
+    <link rel="stylesheet" href="../proyecto_coderhouse/css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&family=swap" rel="stylesheet">
 </head>
 <body>
-   
-    
+    <header class="container">
+        <div class="row align-items-center">
+            <div class="col-sm 12 align-items-center col-md 6 col-lg align-self-start"><h3 class="logo">Candel</h3></div>
+                <div class="col-sm-12 col-md 6 col-lg 2 align-self-end">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Nosotros</a></li>
+                            <li><a href="../proyecto_coderhouse/pages/producto.html">Productos</a></li>
+                            <li><a href="#">Puntos de venta</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </div>
 
-    <header id="home"> 
-        <div class="logo">CANDEL</div>
-            <nav>
-            <ul>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-                <li><a href="./pages/puntos_ventas.html">Puntos de venta</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </div>
     </header>
 
     <main>
-    <section>
-        <div class="titular">
-            Vela Ambar
-           <p class="subtitulo">Cálida y simple.</p> 
-        </div>
-        <div class="foto">
-        <img src="./images/foto_5.jpg" alt="nuestros_productos">
-        </div>
-    </section>
-    <section class="protex">
-    <div>
-    <h1>Proceso Productivo</h1>
-</div>
-    <div class="text">
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ab vero modi veritatis adipisci assumenda molestias ullam ut saepe nostrum odit beatae iure impedit rerum soluta voluptates eveniet natus porro.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolorem fuga odio sit totam illum tempore, quod doloribus ut magnam eos quis minus sequi soluta porro enim molestiae dignissimos! Totam.
-</p>
-</div>
-    <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/xGrg5IDvOQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    </section>
-</main>
+        <section class="container">
+            <div class="row">
+                <div class="col-sm 12 order-sm 2 col-md 6 col-lg">
+                    <div class="align-self-start titular">
+                    Vela Ambar
+                   <p class="subtitulo">Cálida y simple.</p> 
+                   </div>
+                </div>
+                <div class="col-sm 12 col-md 6 col-lg">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../proyecto_coderhouse/images/carrusel_1.jpg" class="d-block w-100" width="560" height="315" alt="foto 1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../proyecto_coderhouse/images/carrusel_2.jpg" class="d-block w-100" width="560" height="315" alt="foto 2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../proyecto_coderhouse/images/carrusel_3.jpg" class="d-block w-100" width="560" height="315" alt="foto 3">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col-sm 12 order-sm 2 col-md 6 col-lg order 2">
+                    <p class="proceso">PROCESO PRODUCTIVO</p>
+                    <p class="texto_proceso">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa labore illo eligendi voluptate obcaecati autem aliquam excepturi quam, eius quasi accusantium totam, impedit dolor nemo cupiditate, sit voluptates doloremque quis!</p>
+                </div>
+                <div class="col-sm 12 order-sm 2 col-md 6 col-lg">
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xGrg5IDvOQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <footer>
+    <footer class="container">
+        <div class="row"></div>
         <ul>
-            <li><a href="./pages/nosotros.html">Nosotros</a></li>
-            <li><a href="./pages/productos.html">Productos</a></li>
-            <li><a href="./pages/puntos_ventas.html">Puntos de venta</a></li>
-            <li><a href="./pages/contacto.html">Contacto</a></li>
+            <li><a href="#home">Nosotros</a></li>
+            <li><a href="../proyecto_coderhouse/pages/producto.html">Productos</a></li>
+            <li><a href="#home">Puntos de venta</a></li>
+            <li><a href="#home">Contacto</a></li>
             <li><a href="#home">Ir arriba</a></li>
         </ul>
+        </div>
 
     </footer>
 
-   </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
+</body>
 </html>
