@@ -12,6 +12,7 @@ $primary: $principal;
     font-weight: bold;
     padding-top: 20px;
 
+
 }
 
 ul{list-style: none;font-family: 'Montserrat', sans-serif;
@@ -47,7 +48,28 @@ a:link, a:visited {
         padding-block: 170px;
         box-sizing: border-box;
         margin-top: 10px;
-        align-self:flex-start
+        align-self:flex-start;
+        font-weight:bold;
+        background: linear-gradient(to right,#f12711,#f5af19);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+        animation: gradient 10s linear infinite;        
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position:0 0;
+        }
+
+        50% {
+            background-position:-100rem 0;
+        }
+
+         100%{
+            background-position: 0 0;
+        }
     }
 
 .subtitulo {
