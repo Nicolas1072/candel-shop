@@ -1,12 +1,14 @@
-h1<2da Entrega del proyecto final>
-h2<Se genero un index y la pagina productos aplicando bootstrap, sass y animaciones en css.>
+2da Entrega del proyecto final
 
-h2<Tecnologias usadas>h2
-list<
+Se genero un index y la pagina productos aplicando bootstrap, sass y animaciones en css.
+
+Tecnologias usadas
+
 Html5
 CSS3
 Bootstrap
-SASS>
+SASS
+Animacion Css
 
 
 
