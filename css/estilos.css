@@ -45,7 +45,7 @@ a:hover, a:active {
   box-sizing: border-box;
   margin-top: 10px;
   align-self: flex-start;
-  font-weight: bold;
+  font-weight: normal;
   background: linear-gradient(to right, #f12711, #f5af19);
   -webkit-background-clip: text;
   background-clip: text;
@@ -67,10 +67,15 @@ a:hover, a:active {
   text-align: center; }
 
 .proceso {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Syncopate', sans-serif;
   font-size: 28px;
   text-align: center;
   margin-top: 150px; }
+
+.texto_proceso {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16 px;
+  text-align: justify; }
 
 .video iframe {
   border: solid 2px;

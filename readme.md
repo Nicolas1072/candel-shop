@@ -1,6 +1,10 @@
-2da Entrega del proyecto final
+Entrega trabajo practico aplicando SASS
 
-Se genero un index y la pagina productos aplicando bootstrap, sass y animaciones en css.
+Se configuro e instalo SASS para que el proyecto lo soporte.
+
+Se adjunta archivo scss y css con su compilacion correspondiente.
+
+Se trabajo sobre el index y la pagina productos.
 
 Tecnologias usadas
 
