@@ -1,0 +1,14 @@
+@media (min-width: 320px) and (max-widht: 576px){
+    .header__nav{
+        flex-direction: column;
+    }
+    .header__lista{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 577px) and (max-widht: 991px){
+    .header__lista{
+        flex-wrap: wrap;
+    }
+}

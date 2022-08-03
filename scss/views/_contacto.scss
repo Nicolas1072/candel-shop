@@ -1,0 +1,21 @@
+.contacto{
+    font-family: $font-principal;
+    font-size: $text-medium ;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.mensaje{
+    font-family: $font-title;
+    font-size: $text-medium;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+fieldset{
+    border: solid 2px;
+            padding: 20px;
+            text-align: left;
+            margin-top: 25  px;
+}

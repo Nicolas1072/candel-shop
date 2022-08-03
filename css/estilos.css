@@ -1,16 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Syncopate&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&family=swap");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  display: inline-block; }
+
+ol {
+  list-style-type: circle; }
 
 .logo {
-  font-family: "syncopate";
+  font-family: "Syncopate", sans-serif;
   font-size: 28px;
   font-weight: bold;
   padding-top: 20px; }
 
 ul {
   list-style: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   padding: 10px; }
 
@@ -18,32 +32,12 @@ li {
   display: inline-block;
   padding: 10px; }
 
-a:link, a:visited {
-  background-color: white;
-  color: black;
-  border: 2px solid black;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block; }
-
-a:hover, a:active {
-  background-color: black;
-  color: white; }
-
-.carousel-inner {
-  border: solid 2px;
-  padding: 10px;
-  text-align: center;
-  margin-top: 100px; }
-
 .titular {
-  font-family: 'Syncopate', sans-serif;
+  font-family: "Syncopate", sans-serif;
   font-size: 50px;
   text-align: center;
   padding-block: 170px;
   box-sizing: border-box;
-  margin-top: 10px;
   align-self: flex-start;
   font-weight: normal;
   background: linear-gradient(to right, #f12711, #f5af19);
@@ -61,29 +55,37 @@ a:hover, a:active {
   100% {
     background-position: 0 0; } }
 
+.carousel-inner {
+  border: solid 2px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 90px; }
+
 .subtitulo {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 28px;
   text-align: center; }
 
 .proceso {
-  font-family: 'Syncopate', sans-serif;
+  font-family: "Syncopate", sans-serif;
   font-size: 28px;
   text-align: center;
-  margin-top: 150px; }
+  margin-top: 120px;
+  padding: 10px; }
 
 .texto_proceso {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16 px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   text-align: justify; }
 
 .video iframe {
   border: solid 2px;
   padding: 10px;
-  margin-top: 100px; }
+  margin-top: 90px; }
 
 footer {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 15vh;
@@ -92,7 +94,92 @@ footer {
   box-sizing: border-box;
   margin-top: 100px; }
 
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; }
+
+a:hover, a:active {
+  background-color: black;
+  color: white; }
+
 .card {
   border: solid 2px;
   padding: 10px;
   margin-top: 70px; }
+
+h1 {
+  font-family: "Syncopate", sans-serif;
+  font-size: 28px;
+  text-align: left;
+  margin-top: 50px; }
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.6rem;
+  margin-top: 50px; }
+
+aside {
+  border: solid 2px;
+  padding: 10px;
+  margin-top: 50px; }
+
+.product {
+  font-family: "Syncopate", sans-serif;
+  font-size: 28px;
+  text-align: left;
+  margin-top: 50px; }
+
+.puntos {
+  font-family: "Syncopate", sans-serif;
+  font-size: 28px;
+  text-align: left;
+  margin-top: 50px; }
+
+.ventas {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px; }
+
+.list-group {
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px; }
+
+.imagen {
+  margin-top: 60px;
+  text-align: center; }
+
+.contacto {
+  font-family: "Syncopate", sans-serif;
+  font-size: 28px;
+  text-align: left;
+  margin-top: 50px; }
+
+.mensaje {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+fieldset {
+  border: solid 2px;
+  padding: 20px;
+  text-align: left;
+  margin-top: 25  px; }
+
+@media (min-width: 320px) and (max-widht: 576px) {
+  .header__nav {
+    flex-direction: column; }
+  .header__lista {
+    flex-direction: column; } }
+
+@media (min-width: 577px) and (max-widht: 991px) {
+  .header__lista {
+    flex-wrap: wrap; } }

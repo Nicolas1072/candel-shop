@@ -1,0 +1,16 @@
+h1 { font-family: $font-principal ;
+font-size: $text-medium ;
+text-align: left;
+margin-top: 50px;
+}
+
+p { font-family: $font-title ;
+    font-size: $text-base;
+    text-align: justify;
+    line-height: $spacing-small;
+    margin-top: 50px;
+}
+
+aside{ border: solid 2px;
+    padding: 10px;  
+    margin-top: 50px;}
