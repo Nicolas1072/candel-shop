@@ -11,7 +11,11 @@ ul {
 a {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
-  display: inline-block; }
+  display: inline-block;
+  color: black; }
+
+a:hover {
+  color: black; }
 
 ol {
   list-style-type: circle; }
@@ -26,11 +30,12 @@ ul {
   list-style: none;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  padding: 10px; }
+  padding: 0px; }
 
 li {
   display: inline-block;
-  padding: 10px; }
+  padding-left: 10px;
+  padding-right: 0px; }
 
 .titular {
   font-family: "Syncopate", sans-serif;
@@ -76,12 +81,18 @@ li {
 .texto_proceso {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  text-align: justify; }
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 .video iframe {
   border: solid 2px;
   padding: 10px;
-  margin-top: 90px; }
+  margin-top: 90px;
+  text-align: right; }
+
+.header__nav {
+  text-align: end; }
 
 footer {
   display: flex;
@@ -92,9 +103,11 @@ footer {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
-  margin-top: 100px; }
+  margin-top: 50px;
+  text-align: center; }
 
-a:link, a:visited {
+.header__nav a:link,
+.header__nav a:visited {
   background-color: white;
   color: black;
   border: 2px solid black;
@@ -103,7 +116,23 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block; }
 
-a:hover, a:active {
+.header__nav a:hover,
+.header__nav a:active {
+  background-color: black;
+  color: white; }
+
+footer a:link,
+footer a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; }
+
+footer a:hover,
+footer a:active {
   background-color: black;
   color: white; }
 
@@ -116,7 +145,7 @@ h1 {
   font-family: "Syncopate", sans-serif;
   font-size: 28px;
   text-align: left;
-  margin-top: 50px; }
+  margin-top: 90px; }
 
 p {
   font-family: "Montserrat", sans-serif;
@@ -128,30 +157,29 @@ p {
 aside {
   border: solid 2px;
   padding: 10px;
-  margin-top: 50px; }
+  margin-top: 90px; }
 
 .product {
   font-family: "Syncopate", sans-serif;
   font-size: 28px;
   text-align: left;
-  margin-top: 50px; }
+  margin-top: 90px; }
+
+.header__nav {
+  text-align: end; }
 
 .puntos {
   font-family: "Syncopate", sans-serif;
   font-size: 28px;
   text-align: left;
-  margin-top: 50px; }
-
-.ventas {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px; }
+  margin-top: 90px; }
 
 .list-group {
-  margin-top: 20px;
+  margin-top: 50px;
   font-family: "Montserrat", sans-serif;
   font-size: 16px; }
 
-.imagen {
+.imagen__ventas {
   margin-top: 60px;
   text-align: center; }
 
@@ -174,12 +202,89 @@ fieldset {
   text-align: left;
   margin-top: 25  px; }
 
-@media (min-width: 320px) and (max-widht: 576px) {
+@media (min-width: 320px) and (max-width: 576px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 20px; }
+  .header__nav a:link,
+  .header__nav a:visited {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px; }
   .header__nav {
-    flex-direction: column; }
+    text-align: center; }
   .header__lista {
-    flex-direction: column; } }
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .header__lista li {
+      padding-top: 10px;
+      padding-left: 0px; }
+  .carousel-inner {
+    margin-top: 30px; }
+  .video iframe {
+    width: 100%;
+    margin-top: 30px; }
+  .titular {
+    padding: 30px; }
+  .proceso {
+    margin-top: 30px; }
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px; }
+    footer li {
+      padding-top: 10px;
+      padding-left: 0px; }
+  h1 {
+    margin-top: 40px;
+    text-align: center; }
+  aside {
+    margin-top: 20px; }
+    aside .imagen {
+      width: 365px;
+      height: auto;
+      margin-top: 0px; }
+  .product {
+    text-align: center;
+    margin-top: 40px; }
+  h1.puntos {
+    font-family: "Syncopate", sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 40px; }
+  .imagen__ventas {
+    margin-top: 40px;
+    text-align: left;
+    width: 100%;
+    height: auto; } }
 
-@media (min-width: 577px) and (max-widht: 991px) {
+@media (min-width: 577px) and (max-width: 991px) {
   .header__lista {
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .titular {
+    padding-block: 150px; }
+  .proceso {
+    margin-top: 10px; }
+  .video {
+    text-align: center; }
+  footer {
+    margin-top: 20px; }
+  aside {
+    margin-top: 35px; }
+    aside .imagen {
+      width: 670px;
+      height: auto;
+      margin-top: 0px; }
+  .card {
+    display: flex;
+    align-content: center;
+    background-color: aqua; }
+    .card .style {
+      width: 15rem;
+      padding: 0px;
+      align-content: center; } }

@@ -1,13 +1,33 @@
-a:link, a:visited {
-    background-color: $primary;
-    color: $secondary;
-    border: 2px solid $secondary;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block; }
-  
-  a:hover, a:active {
-    background-color: $secondary;
-    color: $primary;
-  }
+.header__nav a:link,
+.header__nav a:visited {
+  background-color: $primary;
+  color: $secondary;
+  border: 2px solid $secondary;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header__nav a:hover,
+.header__nav a:active {
+  background-color: $secondary;
+  color: $primary;
+}
+
+footer a:link,
+footer a:visited {
+  background-color: $primary;
+  color: $secondary;
+  border: 2px solid $secondary;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer a:hover,
+footer a:active {
+  background-color: $secondary;
+  color: $primary;
+}

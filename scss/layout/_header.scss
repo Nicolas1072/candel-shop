@@ -1,70 +1,89 @@
 .logo {
-    font-family: $font-principal;
-    font-size: $text-medium;
-    font-weight:bold;
-    padding-top: 20px; }
+  font-family: $font-principal;
+  font-size: $text-medium;
+  font-weight: bold;
+  padding-top: 20px;
+}
 
-ul{list-style: none;font-family: $font-title;
-        font-size: $text-small;
-        padding:10px;}
-        
-        li{display: inline-block;
-        padding: 10px;}    
+ul {
+  list-style: none;
+  font-family: $font-title;
+  font-size: $text-small;
+  padding: 0px;
+}
 
-.titular{font-family: $font-principal;
-            font-size: $text-large;
-            text-align: center;
-            padding-block: 170px;
-            box-sizing: border-box;
-            align-self:flex-start;
-            font-weight:normal;
-            background: linear-gradient(to right,#f12711,#f5af19);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            color: transparent;
-            animation: gradient 10s linear infinite;        
-        }
-    
-        @keyframes gradient {
-            0% {
-                background-position:0 0;
-            }
-    
-            50% {
-                background-position:-100rem 0;
-            }
-    
-             100%{
-                background-position: 0 0;
-            }
-        }
+li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 0px;
+}
 
-.carousel-inner{border: solid 2px;
-            padding: 10px;
-            text-align: center;
-            margin-top: 90px;}
+.titular {
+  font-family: $font-principal;
+  font-size: $text-large;
+  text-align: center;
+  padding-block: 170px;
+  box-sizing: border-box;
+  align-self: flex-start;
+  font-weight: normal;
+  background: linear-gradient(to right, #f12711, #f5af19);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: gradient 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: -100rem 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.carousel-inner {
+  border: solid 2px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 90px;
+}
 
 .subtitulo {
-            font-family: $font-title;
-            font-size: $text-medium;
-            text-align: center; }    
-        
-.proceso{font-family: $font-principal;
-            font-size: $text-medium;
-            text-align:center;
-            margin-top: 120px;
-            padding: 10px;
-        }
-        
-.texto_proceso{font-family:$font-title;
-        font-size: $text-base;
-        text-align: justify;
-        }
-         
+  font-family: $font-title;
+  font-size: $text-medium;
+  text-align: center;
+}
+
+.proceso {
+  font-family: $font-principal;
+  font-size: $text-medium;
+  text-align: center;
+  margin-top: 120px;
+  padding: 10px;
+}
+
+.texto_proceso {
+  font-family: $font-title;
+  font-size: $text-base;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .video iframe {
-            border: solid 2px;
-            padding: 10px;
-            margin-top: 90px;
-        
-        }        
+  border: solid 2px;
+  padding: 10px;
+  margin-top: 90px;
+  text-align: right;
+}
+
+.header__nav {
+    text-align: end;
+}

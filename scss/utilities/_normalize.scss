@@ -1,20 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Syncopate&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&family=swap");
 
-*{margin: 0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
+}
 
-ul{
+ul {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
     font-family: $font-title;
     display: inline-block;
+    color:$secondary;
 }
+
+a:hover {
+    color:$secondary;
+}
+
 
 ol{
     list-style-type: circle;
