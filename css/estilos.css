@@ -64,7 +64,8 @@ li {
   border: solid 2px;
   padding: 10px;
   text-align: center;
-  margin-top: 90px; }
+  margin-top: 90px;
+  border-radius: 0.375rem; }
 
 .subtitulo {
   font-family: "Montserrat", sans-serif;
@@ -89,7 +90,8 @@ li {
   border: solid 2px;
   padding: 10px;
   margin-top: 90px;
-  text-align: right; }
+  text-align: right;
+  border-radius: 0.375rem; }
 
 .header__nav {
   text-align: end; }
@@ -114,7 +116,8 @@ footer {
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
-  display: inline-block; }
+  display: inline-block;
+  border-radius: 0.375rem; }
 
 .header__nav a:hover,
 .header__nav a:active {
@@ -129,7 +132,8 @@ footer a:visited {
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
-  display: inline-block; }
+  display: inline-block;
+  border-radius: 0.375rem; }
 
 footer a:hover,
 footer a:active {
@@ -157,7 +161,10 @@ p {
 aside {
   border: solid 2px;
   padding: 10px;
-  margin-top: 90px; }
+  margin-top: 90px;
+  border-radius: 0.375rem; }
+  aside .imagen {
+    width: 100%; }
 
 .product {
   font-family: "Syncopate", sans-serif;
@@ -187,7 +194,7 @@ aside {
   font-family: "Syncopate", sans-serif;
   font-size: 28px;
   text-align: left;
-  margin-top: 50px; }
+  margin-top: 90px; }
 
 .mensaje {
   font-family: "Montserrat", sans-serif;
@@ -199,8 +206,21 @@ aside {
 fieldset {
   border: solid 2px;
   padding: 20px;
-  text-align: left;
-  margin-top: 25  px; }
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 0.375rem;
+  width: 500px;
+  margin: auto; }
+
+form.container {
+  padding: 0px;
+  margin-top: 50px; }
+
+#comentario {
+  max-width: 100%; }
+
+label {
+  width: 135px; }
 
 @media (min-width: 320px) and (max-width: 576px) {
   .logo {
@@ -246,7 +266,7 @@ fieldset {
   aside {
     margin-top: 20px; }
     aside .imagen {
-      width: 365px;
+      width: 100%;
       height: auto;
       margin-top: 0px; }
   .product {
@@ -259,9 +279,18 @@ fieldset {
     margin-top: 40px; }
   .imagen__ventas {
     margin-top: 40px;
-    text-align: left;
-    width: 100%;
-    height: auto; } }
+    text-align: left; }
+    .imagen__ventas img {
+      width: 100%;
+      height: auto; }
+  .contacto {
+    text-align: center;
+    margin-top: 40px; }
+  fieldset {
+    width: 100%; }
+  input.btn btn-dark {
+    padding-top: 10px;
+    background-color: aqua; } }
 
 @media (min-width: 577px) and (max-width: 991px) {
   .header__lista {
@@ -277,13 +306,12 @@ fieldset {
   aside {
     margin-top: 35px; }
     aside .imagen {
-      width: 670px;
+      width: 100%;
       height: auto;
       margin-top: 0px; }
   .card {
     display: flex;
-    align-content: center;
-    background-color: aqua; }
+    align-content: center; }
     .card .style {
       width: 15rem;
       padding: 0px;

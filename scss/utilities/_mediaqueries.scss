@@ -53,7 +53,6 @@
       padding-top: 10px;
       padding-left: 0px;
     }
-
   }
 
   h1 {
@@ -64,7 +63,7 @@
   aside {
     margin-top: 20px;
     .imagen {
-      width: 365px;
+      width: 100%;
       height: auto;
       margin-top: 0px;
     }
@@ -74,20 +73,34 @@
     margin-top: 40px;
   }
 
-  h1.puntos{
-    font-family: $font-principal ;
-    font-size: $text-medium ;
+  h1.puntos {
+    font-family: $font-principal;
+    font-size: $text-medium;
     text-align: center;
     margin-top: 40px;
-}
+  }
 
-.imagen__ventas{
+  .imagen__ventas {
     margin-top: 40px;
     text-align: left;
-    width: 100%;
-    height: auto;
-}
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .contacto {
+    text-align: center;
+    margin-top: 40px;
+  }
 
+  fieldset {
+    width: 100%;
+  }
+
+  input.btn btn-dark {
+    padding-top: 10px;
+    background-color: aqua;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 991px) {
@@ -113,22 +126,19 @@
   aside {
     margin-top: 35px;
     .imagen {
-      width: 670px;
+      width: 100%;
       height: auto;
       margin-top: 0px;
     }
   }
 
-  .card{
+  .card {
     display: flex;
     align-content: center;
-    background-color: aqua;
     .style {
-        width: 15rem;
-        padding: 0px;
-        align-content: center;
+      width: 15rem;
+      padding: 0px;
+      align-content: center;
     }
   }
-
-
 }

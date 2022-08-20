@@ -1,21 +1,36 @@
-.contacto{
-    font-family: $font-principal;
-    font-size: $text-medium ;
-    text-align: left;
-    margin-top: 50px;
+.contacto {
+  font-family: $font-principal;
+  font-size: $text-medium;
+  text-align: left;
+  margin-top: 90px;
 }
 
-.mensaje{
-    font-family: $font-title;
-    font-size: $text-medium;
-    font-weight: 300;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.mensaje {
+  font-family: $font-title;
+  font-size: $text-medium;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-fieldset{
-    border: solid 2px;
-            padding: 20px;
-            text-align: left;
-            margin-top: 25  px;
+fieldset {
+  border: solid 2px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 0.375rem;
+  width: 500px;
+  margin: auto;
+}
+
+form.container {
+  padding: 0px;
+  margin-top: 50px;
+}
+#comentario{
+    max-width: 100%;
+}
+
+label{
+    width: 135px;
 }

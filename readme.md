@@ -1,19 +1,19 @@
-Entrega trabajo practico aplicando SASS II y SEO
+<h1>Entrega del proyecto final del curso Desarrollo Web</h1>
 
-Se configuro e instalo SASS para que el proyecto lo soporte.
+<p>El proyecto es el site de una fabrica de velas artesanales.</p>
+
+<p> Se configuro e instalo SASS para que el proyecto lo soporte.
 
 Se adjunta archivo scss y css con su compilacion correspondiente.
 
 Se realizo un mixin para reutilizar codigo.
 
-Se agrego un meta keywords y  un meta description para mejorar el SEO del site.
+Se agrego un meta keywords y un meta description para mejorar el SEO del site.</p>
 
-Se agrego titulo a todas las paginas.
+<h1>Tecnologias usadas</h1>
 
-Tecnologias usadas
-
-Html5
-CSS3
-Bootstrap
-SASS
-Animacion Css
+<li>Html5</li>
+<li>CSS3</li>
+<li>Bootstrap</li>
+<li>SASS</li>
+<li>Animacion Css</li>
