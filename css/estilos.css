@@ -175,6 +175,9 @@ aside {
 .header__nav {
   text-align: end; }
 
+button {
+  width: 100%; }
+
 .puntos {
   font-family: "Syncopate", sans-serif;
   font-size: 28px;
@@ -205,8 +208,7 @@ aside {
 
 fieldset {
   border: solid 2px;
-  padding: 20px;
-  text-align: center;
+  padding: 20px 80px;
   margin-top: 50px;
   border-radius: 0.375rem;
   width: 500px;
@@ -220,7 +222,14 @@ form.container {
   max-width: 100%; }
 
 label {
-  width: 135px; }
+  width: 135px;
+  text-align: left; }
+
+input {
+  width: 100%; }
+
+textarea {
+  width: 100%; }
 
 @media (min-width: 320px) and (max-width: 576px) {
   .logo {
@@ -287,7 +296,7 @@ label {
     text-align: center;
     margin-top: 40px; }
   fieldset {
-    width: 100%; }
+    padding: 20px 40px; }
   input.btn btn-dark {
     padding-top: 10px;
     background-color: aqua; } }

@@ -15,8 +15,7 @@
 
 fieldset {
   border: solid 2px;
-  padding: 20px;
-  text-align: center;
+  padding: 20px 80px;
   margin-top: 50px;
   border-radius: 0.375rem;
   width: 500px;
@@ -33,4 +32,13 @@ form.container {
 
 label{
     width: 135px;
+    text-align: left;
+}
+
+input{
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
 }
